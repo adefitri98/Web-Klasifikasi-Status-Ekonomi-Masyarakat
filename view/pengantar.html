@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWld lvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <style type="text/css">
+    body{
+      padding-left: 100px;
+    }
+  </style>
+</head>
+<body>
+  
+  <img src="../gambar/1.jpg" id="bg" alt="" style="position:fixed; top:0; left:0; min-width:100%; max-height:100%;">
+  <div class="row">
+    <div class="col-sm-1">
+      <div class="card-body">
+        <p align="center">
+    <a href = "javascript:history.back()" class="btn btn-secondary btn-sm" style="width: 120px;">Kembali</a></p>
+      </div>
+    </div>
+  </div>
+<div class="row">
+    <div class="col-sm-6">
+    <div class="card border-info">
+      <div class="card-body bg-light b">
+        <h5 class="card-title font-weight-bold text-info"><u>PENGERTIAN METODE K-NN</u></h5>
+        <p class="card-text text-justify">Algoritma KNN (k-nearest neighbor)adalah sebuah metode untuk melakukan klasifikasi terhadap objek berdasarkan data pembelajaran yang jaraknya paling dekat dengan objek tersebut.
+        KNN adalah algoritma supervised learning yang maksudnya algoritma ini menggunakan data yang telah ada dan outputnya telah diketahui. KNN banyak dipergunakan pada aplikasi data mining, pattern recognition, image processing, dll.
+        Tujuan dari algoritma k-NN adalah mengklasifikasikan objek baru berdasarkan atribut dan training data.</p>
+      </div>
+    </div><br>
+        <div class="card border-info">
+      <div class="card-body bg-light">
+        <h5 class="card-title font-weight-bold text-info"><u>KELEBIHAN DAN KEKURANGAN METODE K-NN</u></h5>
+        <p class="card-text text-justify"> 
+          <ul>
+            <li>Kelebihan: Tangguh terhadap training data yang noisy dan efektif apabila data latih nya besar</li>
+            <li>Kekurangan:
+              <ol>
+                <li>KNN perlu menentukan nilai dari parameter K (jumlah dari tetangga terdekat)</li>
+                <li>Pembelajaran berdasarkan jarak tidak jelas mengenai jenis jarak apa yang harus digunakan dan atribut mana yang harus digunakan untuk mendapatkan hasil yang terbaik</li>
+                <li>Biaya komputasi cukup tinggi karena diperlukan perhitungan jarak dari tiap sample uji pada keseluruhan sample latih</li>
+              </ol>
+            </li>
+          </ul>
+      </div>
+    </div></div>
+        
+  <div class="col-sm-5">
+    <div class="card border-info">
+      <div class="card-body bg-light">
+        <h5 class="card-title font-weight-bold text-info"><u>TAHAPAN LANGKAH METODE K-NN</u></h5>
+        <p class="card-text text-justify">
+         <ol>
+           <li>Menentukan parameter k (jumlah tetangga paling dekat)</li>
+           <li>Menghitung jarak objek atau data baru terhadap data training yang diberikan, kemudian urutkan dari data yang terkecil hingga yang terbesar</li>
+           <li>Mengumpulkan kategori Y (K-Nearest Neighbor berdasarkan nilai k)</li>
+           <li>Dengan menggunakan kategori Nearest Neighbor yang paling mayoritas maka dapat dipredisikan kategori objek</li>           
+         </ol> 
+        </p>
+      </div>
+    </div><br>
+    <div class="card border-info">
+      <div class="card-body bg-light">
+        <h5 class="card-title font-weight-bold text-info"><u>RUMUS MENGHITUNG JARAK EUCLIDIEN</u></h5>
+        <p class="card-text text-justify">
+        <img src="../gambar/rumus.jpeg"><br>
+        Jarak Euclidean adalah formula untuk mencari jarak antara 2 titik dalam ruang dua dimensi. Teknik pencarian tetangga terdekat yang umum dilakukan dengan menggunakan formula jarak Euclidean.
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <br><br>
+</div>
+
+</body>
+</html>
